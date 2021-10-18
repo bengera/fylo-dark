@@ -1,0 +1,67 @@
+// PRIMARY COLORS
+$color-soft-red: hsl(7, 99%, 70%);
+
+
+// FONT VARIABLES
+$font-barlow: 'Barlow',
+//600
+sans-serif;
+$font-fraunces: 'Fraunces',
+sans-serif; //700,900
+
+//Padding
+
+
+// GENERAL
+@mixin transition-basic {
+    transition: all 0.3s;
+
+}
+
+// - Mobile: 375px
+// - Desktop: 1440px
+
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5em; // 1000px
+$bp-medium: 50em; // 800px;
+$bp-small: 37.5em; // 600px;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+
+    // @media only screen and (max-width: $bp-large) {
+    //     font-size: 50%;
+    // }
+
+    // @media only screen and (max-width: $bp-medium) {
+    //     font-size: 40%;
+    // }
+
+    // @media only screen and (max-width: $bp-small) {
+    //     font-size: 35%;
+    // }
+
+}
+
+body {
+    font-family: $font-barlow;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    overflow-x: hidden;
+    
+    // min-height: 100%;
+
+}
