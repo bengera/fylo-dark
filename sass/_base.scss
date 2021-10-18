@@ -79,125 +79,41 @@ body {
 }
 
 .master-container {
-    padding: 3rem;
-}
-
-h1 {
-    font-size: 3.1rem;
-    width: 70%;
-    margin-bottom: 0;
     
 }
 
+// INFORMATION SECTION
+.section-features {
+    
+    padding: 10rem;
+    width: 70vw;
+    height: 80vh;
+    // border: 2px solid white;
+    margin: 10rem auto 0 auto;
+    display: grid;
+    gap: 10%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+   
+    
+}
 
-
-
-.header {
-    color: #fff;
+.feature {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    height: 100vh;
-    background-color: $color-blue-intro;
-    background-image: url('../images/bg-curvy-desktop.svg') ;
-    background-repeat: no-repeat;
-    background-position: 50% 125%;
-
-    
-
-    &__img {
-        height: 50%;
-    }
-    
-    &__content {
-        // border: 2px solid white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 100vh;
-        width: 50%;
-        text-align: center;
-        margin-bottom: 1rem;
-    }
-
-    &__info {
-        color: #fff;
-        width: 60%;
-        text-align: center;
-        font-size: 1.9rem;
-        padding: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    &__cta {
-        background: linear-gradient(90deg, rgba(37, 230, 211, 1) 0%, rgba(26, 134, 187, 1) 100%);
-        width: 20rem;
-        height: 6rem;
-        border:none;
-        border-radius: 1.6rem;
-        color: #fff;
-        font-weight: 700;
-        cursor: pointer;
-
-        &:hover,
-        &:active {
-            background: $color-cyan;
-
-
-        }
-    }
-}
-
-.header-top {
-    display: flex;
     align-items: center;
-    padding: 2rem;
-    height: 10rem;
-    // position: fixed;
-    // top: 0;
-    width: 95vw;
-    margin: 2rem auto 0 auto;
+    color: $color-white;
+    text-align: center;
+    gap: 1rem;
+          
+    // border: 1px solid red;
+
+    &__description {
+        width: 70%;
+        // border: 1px solid red;
+    }
 }
 
-.logo {
-    margin-right: auto;
-    height: 70%;
-}
 
 
 
-.navigation {
-    margin-left: auto;
-
-    &__list {
-        list-style: none;
-
-    }
-
-    &__item {
-        display: inline-block;
-        padding: 2.2rem;
-        font-size: 1.9rem;
-    }
-
-    &__link {
-
-        &:link,
-        &:visited {
-            color: $color-white;
-            text-decoration: none;
-            
-        }
-
-        &:hover,
-        &:active {
-            border-bottom: 1px solid $color-white;
-
-
-        }
-
-    }
-
-}
