@@ -20,35 +20,63 @@ body {
 .master-container {
   padding: 3rem; }
 
+h1 {
+  font-size: 3.1rem;
+  width: 70%;
+  margin-bottom: 0; }
+
 .header {
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column; }
+  flex-direction: column;
+  height: 100vh;
+  background-color: #1c2431;
+  background-image: url("../images/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 125%; }
+  .header__img {
+    height: 50%; }
   .header__content {
-    border: 2px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 85vh;
-    width: 50%; }
+    height: 100vh;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 1rem; }
   .header__info {
     color: #fff;
+    width: 60%;
     text-align: center;
-    font-size: 1.9rem; }
+    font-size: 1.9rem;
+    padding: 1rem;
+    margin-bottom: 1rem; }
+  .header__cta {
+    background: linear-gradient(90deg, #25e6d3 0%, #1a86bb 100%);
+    width: 20rem;
+    height: 6rem;
+    border: none;
+    border-radius: 1.6rem;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer; }
+    .header__cta:hover, .header__cta:active {
+      background: #65e2d9; }
 
 .header-top {
   display: flex;
+  align-items: center;
   padding: 2rem;
   height: 10rem;
-  border: 2px solid white;
   width: 95vw;
-  margin: 0 auto 0 auto; }
+  margin: 2rem auto 0 auto; }
 
 .logo {
-  margin-right: auto; }
+  margin-right: auto;
+  height: 70%; }
 
 .navigation {
   margin-left: auto; }
@@ -56,13 +84,13 @@ body {
     list-style: none; }
   .navigation__item {
     display: inline-block;
-    padding: 2rem; }
+    padding: 2.2rem;
+    font-size: 1.9rem; }
   .navigation__link:link, .navigation__link:visited {
     color: white;
-    text-decoration: none;
-    padding: 2.2rem; }
+    text-decoration: none; }
   .navigation__link:hover, .navigation__link:active {
-    border-bottom: 2px solid white; }
+    border-bottom: 1px solid white; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
@@ -95,10 +123,6 @@ main {
    * Correct the font size and margin on `h1` elements within `section` and
    * `article` contexts in Chrome, Firefox, and Safari.
    */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
-
 /* Grouping content
      ========================================================================== */
 /**
