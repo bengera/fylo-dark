@@ -311,32 +311,39 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: "Raleway", "sans-serif";
+  font-family: "Open Sans", "sans-serif";
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.6;
   overflow-x: hidden;
   background-color: #181f2a; }
 
-.section-features {
-  padding: 10rem;
-  width: 70vw;
-  height: 80vh;
-  margin: 10rem auto 0 auto;
+.how-to {
+  width: 75vw;
+  height: 60vh;
+  margin: 0 auto 0 auto;
   display: grid;
-  gap: 10%;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr); }
-
-.feature {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  text-align: center;
-  gap: 1rem; }
-  .feature__description {
-    width: 70%; }
+  grid-template-rows: 1fr;
+  border: 1px solid white; }
+  .how-to__text-container {
+    grid-column: 2 / -1;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    color: white; }
+  .how-to__img {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1; }
+  .how-to__h1 {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1; }
+  .how-to__description {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1; }
+  .how-to__cta {
+    grid-column: 2 / 2;
+    grid-row: 1 / 1; }
 
 h1 {
   font-size: 3.1rem;
@@ -353,7 +360,9 @@ h1 {
   background-color: #1c2431;
   background-image: url("../images/bg-curvy-desktop.svg");
   background-repeat: no-repeat;
-  background-position: 50% 125%; }
+  background-position: 50% 160%;
+  background-size: 100%;
+  font-family: "Raleway", "sans-serif"; }
   .header__img {
     height: 45rem; }
   .header__content {
@@ -409,3 +418,23 @@ h1 {
     text-decoration: none; }
   .navigation__link:hover, .navigation__link:active {
     border-bottom: 1px solid white; }
+
+.section-features {
+  padding: 10rem;
+  width: 70vw;
+  height: 80vh;
+  margin: 10rem auto 0 auto;
+  display: grid;
+  gap: 10%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr); }
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-align: center;
+  gap: 1rem; }
+  .feature__description {
+    width: 70%; }

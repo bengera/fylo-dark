@@ -1,0 +1,31 @@
+// FEATURES SECTION
+.section-features {
+    
+    padding: 10rem;
+    width: 70vw;
+    height: 80vh;
+    // border: 2px solid white;
+    margin: 10rem auto 0 auto;
+    display: grid;
+    gap: 10%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+   
+    
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $color-white;
+    text-align: center;
+    gap: 1rem;
+          
+    // border: 1px solid red;
+
+    &__description {
+        width: 70%;
+        // border: 1px solid red;
+    }
+}

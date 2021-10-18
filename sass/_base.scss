@@ -17,6 +17,8 @@ $color-white: hsl(0, 0%, 100%);
 $font-primary: 'Raleway',
 'sans-serif';
 
+$font-secondary: 'Open Sans', 'sans-serif';
+
 
 
 //Padding
@@ -66,7 +68,7 @@ html {
 }
 
 body {
-    font-family: $font-primary;
+    font-family: $font-secondary;
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 1.6;
@@ -78,42 +80,50 @@ body {
 
 }
 
-.master-container {
-    
-}
 
-// INFORMATION SECTION
-.section-features {
-    
-    padding: 10rem;
-    width: 70vw;
-    height: 80vh;
-    // border: 2px solid white;
-    margin: 10rem auto 0 auto;
+
+// SECTION HOW-TO
+
+.how-to {
+    // background-color: orangered;
+    width: 75vw;
+    height: 60vh;
+    margin: 0 auto 0 auto;
     display: grid;
-    gap: 10%;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-   
-    
-}
+    grid-template-rows: 1fr;
+    border: 1px solid white;
 
-.feature {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: $color-white;
-    text-align: center;
-    gap: 1rem;
-          
-    // border: 1px solid red;
+    &__text-container {
+        // background-color: orangered;
+        grid-column: 2 / -1;
+        display: flex;
+        flex-direction: column;
+        padding: 5rem;
+        color: $color-white;
+    }
+
+    &__img {
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+    }
+
+    &__h1 {
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
+        
+    }
 
     &__description {
-        width: 70%;
-        // border: 1px solid red;
+        grid-column: 2 / 2;
+        grid-row: 1 / 1;
     }
+
+    &__cta {
+        grid-column: 2 / 2; 
+        grid-row: 1 / 1;
+    }
+    
 }
-
-
 
 
