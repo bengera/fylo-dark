@@ -320,8 +320,70 @@ body {
 
 h1 {
   font-size: 3.5rem;
-  width: 70%;
   margin-bottom: 0; }
+
+small {
+  color: #ff4242;
+  margin-left: 1rem; }
+
+.cta {
+  background: linear-gradient(90deg, #25e6d3 0%, #1a86bb 100%);
+  width: 25rem;
+  height: 6rem;
+  border: none;
+  border-radius: 10rem;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer; }
+  .cta:hover, .cta:active {
+    background: #65e2d9; }
+
+.registration {
+  width: 55vw;
+  height: 30rem;
+  margin: 10rem auto 0 auto;
+  position: relative; }
+  .registration__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #202a3c;
+    color: white;
+    position: absolute;
+    top: 50%; }
+  .registration__description {
+    width: 70%;
+    padding: 1rem;
+    text-align: center; }
+  .registration__cta {
+    background: linear-gradient(90deg, #25e6d3 0%, #1a86bb 100%);
+    width: 25rem;
+    height: 5rem;
+    border: none;
+    border-radius: 10rem;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer; }
+    .registration__cta:hover, .registration__cta:active {
+      background: #65e2d9; }
+
+.input {
+  background-color: #fff;
+  border: 0;
+  font-size: 18px;
+  padding: 15px;
+  height: 50px;
+  width: 55rem;
+  border-radius: 20px;
+  transition: width 0.3s ease;
+  margin-right: 1rem; }
+
+.footer {
+  height: 30vh;
+  background-color: #0b1523; }
 
 .header {
   color: #fff;
@@ -354,17 +416,6 @@ h1 {
     font-size: 1.9rem;
     padding: 1rem;
     margin-bottom: 1rem; }
-  .header__cta {
-    background: linear-gradient(90deg, #25e6d3 0%, #1a86bb 100%);
-    width: 25rem;
-    height: 6rem;
-    border: none;
-    border-radius: 10rem;
-    color: #fff;
-    font-weight: 700;
-    cursor: pointer; }
-    .header__cta:hover, .header__cta:active {
-      background: #65e2d9; }
 
 .header-top {
   display: flex;
