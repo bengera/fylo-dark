@@ -338,77 +338,6 @@ small {
   .cta:hover, .cta:active {
     background: #65e2d9; }
 
-.footer {
-  height: 50vh;
-  background-color: #0b1523;
-  color: white; }
-  .footer__outer-container {
-    width: 75%;
-    display: flex;
-    margin: 0 auto 0 auto;
-    position: relative; }
-  .footer__container {
-    display: flex;
-    flex-direction: row;
-    gap: 16rem;
-    align-items: center;
-    justify-content: center;
-    width: 75%;
-    padding-top: 26rem;
-    margin: 0 auto 0 auto;
-    align-items: baseline;
-    position: relative; }
-  .footer__col-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30rem; }
-  .footer__col-2 {
-    height: 7rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; }
-  .footer__phone {
-    margin-bottom: 1rem; }
-  .footer__logo {
-    position: absolute;
-    top: 20rem;
-    left: 3rem; }
-  .footer__logo-small {
-    width: 13rem; }
-  .footer__col-5 {
-    display: flex;
-    justify-content: space-evenly;
-    width: 15rem; }
-  .footer__list {
-    list-style: none;
-    cursor: pointer; }
-  .footer__item {
-    display: inline-block;
-    padding: 2.2rem;
-    font-size: 1.9rem;
-    padding-top: 1rem; }
-  .footer__list-item:not(:last-child) {
-    padding-bottom: 1rem; }
-
-i.fab:nth-child(1),
-i.fab:nth-child(2),
-i.fab:nth-child(3) {
-  cursor: pointer; }
-  i.fab:nth-child(1):hover,
-  i.fab:nth-child(2):hover,
-  i.fab:nth-child(3):hover {
-    color: #65e2d9; }
-
-.fa, .fas {
-  margin-right: 1rem; }
-
-.fa,
-.far,
-.fas {
-  font-family: "Font Awesome 5 Free";
-  margin-right: 1rem; }
-
 .header {
   color: #fff;
   display: flex;
@@ -608,4 +537,75 @@ i.fab:nth-child(3) {
   width: 55rem;
   border-radius: 20px;
   transition: width 0.3s ease;
+  margin-right: 1rem; }
+
+.footer {
+  height: 50vh;
+  background-color: #0b1523;
+  color: white; }
+  .footer__outer-container {
+    width: 75%;
+    display: flex;
+    margin: 0 auto 0 auto;
+    position: relative; }
+  .footer__container {
+    display: flex;
+    flex-direction: row;
+    gap: 16rem;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    padding-top: 26rem;
+    margin: 0 auto 0 auto;
+    align-items: baseline;
+    position: relative; }
+  .footer__col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30rem; }
+  .footer__col-2 {
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; }
+  .footer__phone {
+    margin-bottom: 1rem; }
+  .footer__logo {
+    position: absolute;
+    top: 20rem;
+    left: 3rem; }
+  .footer__logo-small {
+    width: 13rem; }
+  .footer__col-5 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 15rem; }
+  .footer__list {
+    list-style: none;
+    cursor: pointer; }
+  .footer__item {
+    display: inline-block;
+    padding: 2.2rem;
+    font-size: 1.9rem;
+    padding-top: 1rem; }
+  .footer__list-item:not(:last-child) {
+    padding-bottom: 1rem; }
+
+i.fab:nth-child(1),
+i.fab:nth-child(2),
+i.fab:nth-child(3) {
+  cursor: pointer; }
+  i.fab:nth-child(1):hover,
+  i.fab:nth-child(2):hover,
+  i.fab:nth-child(3):hover {
+    color: #65e2d9; }
+
+.fa, .fas {
+  margin-right: 1rem; }
+
+.fa,
+.far,
+.fas {
+  font-family: "Font Awesome 5 Free";
   margin-right: 1rem; }
