@@ -157,7 +157,7 @@ small {
     }
 
     &__phone {
-        
+        margin-bottom: 1rem;    
     }
 
     &__logo-small {
@@ -181,13 +181,25 @@ small {
         display: inline-block;
         padding: 2.2rem;
         font-size: 1.9rem;
+        padding-top: 1rem;
         
+
+
     }
-       
+
+    &__list-item:not(:last-child) {
+        padding-bottom: 1rem;
+    }
+
+         
 
     
     
 }
+
+
+
+
 
 //ICONS
 

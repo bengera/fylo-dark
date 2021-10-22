@@ -362,6 +362,8 @@ small {
     display: flex;
     flex-direction: column;
     justify-content: flex-start; }
+  .footer__phone {
+    margin-bottom: 1rem; }
   .footer__logo-small {
     width: 40%; }
   .footer__col-5 {
@@ -374,7 +376,10 @@ small {
   .footer__item {
     display: inline-block;
     padding: 2.2rem;
-    font-size: 1.9rem; }
+    font-size: 1.9rem;
+    padding-top: 1rem; }
+  .footer__list-item:not(:last-child) {
+    padding-bottom: 1rem; }
 
 i.fab:nth-child(1),
 i.fab:nth-child(2),
