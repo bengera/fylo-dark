@@ -339,9 +339,14 @@ small {
     background: #65e2d9; }
 
 .footer {
-  height: 45vh;
+  height: 50vh;
   background-color: #0b1523;
   color: white; }
+  .footer__outer-container {
+    width: 75%;
+    display: flex;
+    margin: 0 auto 0 auto;
+    position: relative; }
   .footer__container {
     display: flex;
     flex-direction: row;
@@ -349,9 +354,10 @@ small {
     align-items: center;
     justify-content: center;
     width: 75%;
-    padding-top: 22rem;
+    padding-top: 26rem;
     margin: 0 auto 0 auto;
-    align-items: baseline; }
+    align-items: baseline;
+    position: relative; }
   .footer__col-1 {
     display: flex;
     flex-direction: column;
@@ -364,8 +370,12 @@ small {
     justify-content: flex-start; }
   .footer__phone {
     margin-bottom: 1rem; }
+  .footer__logo {
+    position: absolute;
+    top: 20rem;
+    left: 3rem; }
   .footer__logo-small {
-    width: 40%; }
+    width: 13rem; }
   .footer__col-5 {
     display: flex;
     justify-content: space-evenly;
@@ -559,7 +569,8 @@ i.fab:nth-child(3) {
   width: 55vw;
   height: 30rem;
   margin: 10rem auto 0 auto;
-  position: relative; }
+  position: relative;
+  z-index: 200; }
   .registration__container {
     width: 100%;
     height: 100%;

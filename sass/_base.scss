@@ -109,21 +109,20 @@ small {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
 //FOOTER
 .footer {
-    height: 45vh;
+    height: 50vh;
     background-color: $color-blue-footer-background;
     color: $color-white;
+
+    &__outer-container {
+        
+        width: 75%;
+        display: flex;
+        margin: 0 auto 0 auto;
+        position: relative;
+    }
+    
 
     &__container {
         display: flex;
@@ -132,10 +131,12 @@ small {
         align-items: center;
         justify-content: center;
         width: 75%;
-        padding-top: 22rem;
+        padding-top: 26rem;
         // border: 1px solid red;
         margin: 0 auto 0 auto;
         align-items: baseline;
+        position: relative;
+        
         
     }
 
@@ -160,8 +161,17 @@ small {
         margin-bottom: 1rem;    
     }
 
+    &__logo {
+    position: absolute;  
+    top:20rem;  
+    left: 3rem;
+         
+        
+    }
+
     &__logo-small {
-        width: 40%;
+        width: 13rem;
+       
     }
 
     &__col-5 {
