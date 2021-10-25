@@ -11,6 +11,11 @@
             
         width: 75vw;
     }
+
+    @media only screen and (max-width: $bp-small) {
+            
+        margin: 5rem auto 0 auto;
+    }
     
     &__container {
         // background-color: green;

@@ -572,6 +572,9 @@ small {
   @media only screen and (max-width: 62.5em) {
     .registration {
       width: 75vw; } }
+  @media only screen and (max-width: 37.5em) {
+    .registration {
+      margin: 5rem auto 0 auto; } }
   .registration__container {
     width: 100%;
     height: 100%;
@@ -699,7 +702,7 @@ small {
     width: 15rem; }
     @media only screen and (max-width: 75em) {
       .footer__col-5 {
-        margin: 0 auto 3rem auto; } }
+        margin: 3rem auto 3rem auto; } }
   .footer__list {
     list-style: none;
     cursor: pointer; }
