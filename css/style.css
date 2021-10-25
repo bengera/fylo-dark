@@ -407,7 +407,7 @@ small {
 
 .navigation {
   margin-left: auto;
-  border: 1px solid white; }
+  border: 1px solid red; }
   .navigation__list {
     list-style: none; }
   .navigation__item {
@@ -419,7 +419,9 @@ small {
         font-size: 1.5rem; } }
     @media only screen and (max-width: 37.5em) {
       .navigation__item {
-        font-size: 1.3rem; } }
+        font-size: 1.3rem;
+        padding: 0;
+        margin-left: 2.2rem; } }
   .navigation__link:link, .navigation__link:visited {
     color: white;
     text-decoration: none; }
