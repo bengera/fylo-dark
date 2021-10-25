@@ -53,17 +53,17 @@ html {
     font-size: 62.5%;
 
 
-    // @media only screen and (max-width: $bp-large) {
-    //     font-size: 50%;
-    // }
+    @media only screen and (max-width: $bp-large) {
+        // font-size: 50%;
+    }
 
-    // @media only screen and (max-width: $bp-medium) {
-    //     font-size: 40%;
-    // }
+    @media only screen and (max-width: $bp-medium) {
+        // font-size: 40%;
+    }
 
-    // @media only screen and (max-width: $bp-small) {
-    //     font-size: 35%;
-    // }
+    @media only screen and (max-width: $bp-small) {
+        // font-size: 35%;
+    }
 
 }
 
@@ -81,8 +81,12 @@ body {
 
 h1 {
     font-size: 3.5rem;
-   
     margin-bottom: 0;
+
+    @media only screen and (max-width: $bp-small) {
+            
+        font-size: 2.5rem;
+    }
     
 }
 

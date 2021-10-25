@@ -11,11 +11,20 @@
     background-position: 50% 160%;
     background-size: 100%;
     font-family: $font-primary;
-
+    
+    @media only screen and (max-width: $bp-small) {
+        background-size: auto; 
+        background-position: bottom center;
+    }
     
 
     &__img {
         height: 45rem;
+
+        @media only screen and (max-width: $bp-small) {
+            height: 35%;
+            padding: 1rem;
+        }
     }
     
     &__content {
@@ -28,6 +37,11 @@
         width: 50%;
         text-align: center;
         margin-bottom: 1rem;
+
+        @media only screen and (max-width: $bp-small) {
+            
+            width: 100%;
+        }
     }
 
     &__info {
@@ -37,6 +51,11 @@
         font-size: 1.9rem;
         padding: 1rem;
         margin-bottom: 1rem;
+
+        @media only screen and (max-width: $bp-small) {
+            
+            font-size: 1.5rem;
+        }
     }
 
     
@@ -51,11 +70,21 @@
     // top: 0;
     width: 95vw;
     margin: 2rem auto 0 auto;
+
+    @media only screen and (max-width: $bp-small) {
+            
+        margin: 0 auto 0 auto;
+    }
 }
 
 .logo {
     margin-right: auto;
     height: 70%;
+
+    @media only screen and (max-width: $bp-small) {
+            
+        height: 50%;
+    }
 }
 
 
@@ -72,6 +101,11 @@
         display: inline-block;
         padding: 2.2rem;
         font-size: 1.9rem;
+
+        @media only screen and (max-width: $bp-small) {
+            
+            font-size: 1.5rem;
+        }
     }
 
     &__link {

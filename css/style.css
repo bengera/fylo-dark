@@ -321,6 +321,9 @@ body {
 h1 {
   font-size: 3.5rem;
   margin-bottom: 0; }
+  @media only screen and (max-width: 37.5em) {
+    h1 {
+      font-size: 2.5rem; } }
 
 small {
   color: #ff4242;
@@ -351,8 +354,16 @@ small {
   background-position: 50% 160%;
   background-size: 100%;
   font-family: "Raleway", "sans-serif"; }
+  @media only screen and (max-width: 37.5em) {
+    .header {
+      background-size: auto;
+      background-position: bottom center; } }
   .header__img {
     height: 45rem; }
+    @media only screen and (max-width: 37.5em) {
+      .header__img {
+        height: 35%;
+        padding: 1rem; } }
   .header__content {
     display: flex;
     justify-content: center;
@@ -362,6 +373,9 @@ small {
     width: 50%;
     text-align: center;
     margin-bottom: 1rem; }
+    @media only screen and (max-width: 37.5em) {
+      .header__content {
+        width: 100%; } }
   .header__info {
     color: #fff;
     width: 60%;
@@ -369,6 +383,9 @@ small {
     font-size: 1.9rem;
     padding: 1rem;
     margin-bottom: 1rem; }
+    @media only screen and (max-width: 37.5em) {
+      .header__info {
+        font-size: 1.5rem; } }
 
 .header-top {
   display: flex;
@@ -377,10 +394,16 @@ small {
   height: 10rem;
   width: 95vw;
   margin: 2rem auto 0 auto; }
+  @media only screen and (max-width: 37.5em) {
+    .header-top {
+      margin: 0 auto 0 auto; } }
 
 .logo {
   margin-right: auto;
   height: 70%; }
+  @media only screen and (max-width: 37.5em) {
+    .logo {
+      height: 50%; } }
 
 .navigation {
   margin-left: auto; }
@@ -390,6 +413,9 @@ small {
     display: inline-block;
     padding: 2.2rem;
     font-size: 1.9rem; }
+    @media only screen and (max-width: 37.5em) {
+      .navigation__item {
+        font-size: 1.5rem; } }
   .navigation__link:link, .navigation__link:visited {
     color: white;
     text-decoration: none; }
@@ -405,6 +431,14 @@ small {
   gap: 10%;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr); }
+  @media only screen and (max-width: 37.5em) {
+    .section-features {
+      height: 100vh;
+      width: 100%;
+      margin: 0;
+      grid-template-columns: 1fr;
+      padding: 0;
+      margin-bottom: 30rem; } }
 
 .feature {
   display: flex;
@@ -423,6 +457,11 @@ small {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr; }
+  @media only screen and (max-width: 37.5em) {
+    .how-to {
+      height: auto;
+      width: 100%;
+      grid-template-columns: 1fr; } }
   .how-to__text-container {
     grid-column: 2 / -1;
     display: flex;
@@ -430,10 +469,17 @@ small {
     padding: 5rem;
     color: white;
     justify-content: center; }
+    @media only screen and (max-width: 37.5em) {
+      .how-to__text-container {
+        grid-column: 1 / -1; } }
   .how-to__img {
     grid-column: 1 / 1;
     grid-row: 1 / 1;
     margin-left: 5rem; }
+    @media only screen and (max-width: 37.5em) {
+      .how-to__img {
+        height: 30rem;
+        margin: 0 auto 0 auto; } }
   .how-to__h1 {
     grid-column: 2 / 2;
     grid-row: 1 / 1;
