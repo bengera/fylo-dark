@@ -12,7 +12,7 @@
     background-size: 100%;
     font-family: $font-primary;
     
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-medium) {
         background-size: auto; 
         background-position: bottom center;
     }
@@ -21,7 +21,7 @@
     &__img {
         height: 45rem;
 
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-medium) {
             height: 35%;
             padding: 1rem;
         }
@@ -38,7 +38,7 @@
         text-align: center;
         margin-bottom: 1rem;
 
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-medium) {
             
             width: 100%;
         }
@@ -52,7 +52,7 @@
         padding: 1rem;
         margin-bottom: 1rem;
 
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-medium) {
             
             font-size: 1.5rem;
         }
@@ -71,9 +71,9 @@
     width: 95vw;
     margin: 2rem auto 0 auto;
 
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-large) {
             
-        margin: 0 auto 0 auto;
+        margin: 10rem auto 0 auto;
     }
 }
 
@@ -81,7 +81,7 @@
     margin-right: auto;
     height: 70%;
 
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-medium) {
             
         height: 50%;
     }
@@ -102,7 +102,7 @@
         padding: 2.2rem;
         font-size: 1.9rem;
 
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-medium) {
             
             font-size: 1.5rem;
         }

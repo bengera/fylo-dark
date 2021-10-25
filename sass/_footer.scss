@@ -1,14 +1,11 @@
 //FOOTER
 .footer {
-    height: 50vh;
+    height: auto;
     background-color: $color-blue-footer-background;
     color: $color-white;
 
     
-    @media only screen and (max-width: $bp-small) {
-            
-        height: auto;
-    }
+    
 
     &__outer-container {
         
@@ -31,13 +28,22 @@
         margin: 0 auto 0 auto;
         align-items: baseline;
         position: relative;
+        padding-bottom: 10rem;
+        
 
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-largest) {
             
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: auto;
             gap: 1rem;
+            padding-bottom: 0;
+        }
+
+        @media only screen and (max-width: $bp-small) {
+         
+            padding-top: 36rem;
+            
         }
         
         
@@ -69,18 +75,28 @@
     top:20rem;  
     left: 3rem;
 
-    @media only screen and (max-width: $bp-small) {
+    @media only screen and (max-width: $bp-largest) {
             
         left: 0;
     }
+
+    @media only screen and (max-width: $bp-small) {
+            
+        top: 28rem;
+    }
+
+    
          
         
     }
 
-    &__logo-small {
+    &__logo-medium {
         width: 13rem;
+        
        
     }
+
+    
 
     &__col-5 {
         display: flex;
@@ -88,7 +104,7 @@
         width: 15rem;
         
         
-        @media only screen and (max-width: $bp-small) {
+        @media only screen and (max-width: $bp-largest) {
             
             margin: 0 auto 3rem auto;
         }
