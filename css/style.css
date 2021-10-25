@@ -375,7 +375,10 @@ small {
     margin-bottom: 1rem; }
     @media only screen and (max-width: 50em) {
       .header__content {
-        width: 100%; } }
+        justify-content: flex-start;
+        width: 100%;
+        margin-bottom: 0;
+        margin-top: 3rem; } }
   .header__info {
     color: #fff;
     width: 60%;
