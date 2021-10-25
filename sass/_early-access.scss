@@ -7,6 +7,11 @@
     margin: 10rem auto 0 auto;
     position: relative;
     z-index: 200;
+
+    @media only screen and (max-width: $bp-small) {
+            
+        width: 75vw;
+    }
     
     &__container {
         // background-color: green;
@@ -22,6 +27,13 @@
         position: absolute;
         top: 50%;
         border-radius: 10px;
+
+        @media only screen and (max-width: $bp-small) {
+            
+            height: 40rem;
+            top: 30%;
+            text-align: center;
+        }
         
         
     }
@@ -31,6 +43,11 @@
         width: 70%;
         padding:1rem;
         text-align: center;
+
+        @media only screen and (max-width: $bp-small) {
+            
+            width: 80%;
+        }
     }
 
     &__cta {
@@ -49,6 +66,12 @@
     
     
         }
+
+        @media only screen and (max-width: $bp-small) {
+            
+            width: 90%;
+            border-radius: 20px;
+        }
     }
 
     
@@ -64,5 +87,12 @@
     border-radius: 20px;
     transition: width 0.3s ease;
     margin-right: 1rem;
+
+    @media only screen and (max-width: $bp-small) {
+            
+        width: 90%;
+        margin: 0 auto 1.4rem auto;
+        
+    }
     
   }

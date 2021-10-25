@@ -510,6 +510,12 @@ small {
   margin: 15rem auto 0 auto;
   gap: 5rem;
   position: relative; }
+  @media only screen and (max-width: 37.5em) {
+    .testimonials {
+      grid-template-columns: 1fr;
+      margin: 5rem auto 0 auto;
+      width: 85vw;
+      gap: 3.5rem; } }
   .testimonials__bg-quotes {
     position: absolute;
     top: -30px;
@@ -546,6 +552,9 @@ small {
   margin: 10rem auto 0 auto;
   position: relative;
   z-index: 200; }
+  @media only screen and (max-width: 37.5em) {
+    .registration {
+      width: 75vw; } }
   .registration__container {
     width: 100%;
     height: 100%;
@@ -558,10 +567,18 @@ small {
     position: absolute;
     top: 50%;
     border-radius: 10px; }
+    @media only screen and (max-width: 37.5em) {
+      .registration__container {
+        height: 40rem;
+        top: 30%;
+        text-align: center; } }
   .registration__description {
     width: 70%;
     padding: 1rem;
     text-align: center; }
+    @media only screen and (max-width: 37.5em) {
+      .registration__description {
+        width: 80%; } }
   .registration__cta {
     background: linear-gradient(90deg, #25e6d3 0%, #1a86bb 100%);
     width: 25rem;
@@ -573,6 +590,10 @@ small {
     cursor: pointer; }
     .registration__cta:hover, .registration__cta:active {
       background: #65e2d9; }
+    @media only screen and (max-width: 37.5em) {
+      .registration__cta {
+        width: 90%;
+        border-radius: 20px; } }
 
 .input {
   background-color: #fff;
@@ -584,11 +605,18 @@ small {
   border-radius: 20px;
   transition: width 0.3s ease;
   margin-right: 1rem; }
+  @media only screen and (max-width: 37.5em) {
+    .input {
+      width: 90%;
+      margin: 0 auto 1.4rem auto; } }
 
 .footer {
   height: 50vh;
   background-color: #0b1523;
   color: white; }
+  @media only screen and (max-width: 37.5em) {
+    .footer {
+      height: auto; } }
   .footer__outer-container {
     width: 75%;
     display: flex;

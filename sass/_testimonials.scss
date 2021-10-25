@@ -9,6 +9,16 @@
     gap: 5rem;
     position: relative;
 
+    @media only screen and (max-width: $bp-small) {
+            
+        grid-template-columns: 1fr;
+        margin: 5rem auto 0 auto;
+        width: 85vw;
+        gap: 3.5rem;
+       
+        
+    }
+
 
     &__bg-quotes {
         position: absolute;
