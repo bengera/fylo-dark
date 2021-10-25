@@ -31,6 +31,14 @@
         margin: 0 auto 0 auto;
         align-items: baseline;
         position: relative;
+
+        @media only screen and (max-width: $bp-small) {
+            
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            gap: 1rem;
+        }
         
         
     }
@@ -60,6 +68,11 @@
     position: absolute;  
     top:20rem;  
     left: 3rem;
+
+    @media only screen and (max-width: $bp-small) {
+            
+        left: 0;
+    }
          
         
     }
@@ -73,7 +86,12 @@
         display: flex;
         justify-content: space-evenly;
         width: 15rem;
-        // border: 1px solid red;
+        
+        
+        @media only screen and (max-width: $bp-small) {
+            
+            margin: 0 auto 3rem auto;
+        }
     }
 
     &__list {
