@@ -406,7 +406,8 @@ small {
       height: 50%; } }
 
 .navigation {
-  margin-left: auto; }
+  margin-left: auto;
+  border: 1px solid white; }
   .navigation__list {
     list-style: none; }
   .navigation__item {
