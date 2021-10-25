@@ -406,8 +406,7 @@ small {
       height: 50%; } }
 
 .navigation {
-  margin-left: auto;
-  border: 1px solid red; }
+  margin-left: auto; }
   .navigation__list {
     list-style: none; }
   .navigation__item {
@@ -444,7 +443,12 @@ small {
       margin-top: 13rem;
       grid-template-columns: 1fr;
       padding: 0;
-      margin-bottom: 30rem; } }
+      margin-bottom: 15rem; } }
+  @media only screen and (max-width: 37.5em) {
+    .section-features {
+      margin-top: 0;
+      display: grid;
+      gap: 5%; } }
 
 .feature {
   display: flex;

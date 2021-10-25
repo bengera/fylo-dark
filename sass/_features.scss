@@ -18,7 +18,15 @@
         margin-top: 13rem;
         grid-template-columns: 1fr;
         padding: 0;
-        margin-bottom: 30rem; // temp fix for overlap
+        margin-bottom: 15rem; // temp fix for overlap
+        
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        margin-top: 0;
+        display: grid;
+        gap: 5%;
+
     }
     
 }
@@ -30,6 +38,10 @@
     color: $color-white;
     text-align: center;
     gap: 1rem;
+
+    
+
+    
           
     // border: 1px solid red;
 
