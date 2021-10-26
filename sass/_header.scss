@@ -23,6 +23,7 @@
 
         @media only screen and (max-width: $bp-medium) {
             width: 100%;
+            margin: 0 auto;
             height: auto;
             padding: 1rem;
         }
@@ -43,7 +44,7 @@
 
         @media only screen and (max-width: $bp-medium) {
             justify-content: flex-start;
-            width: 100%;
+            max-width: 650px;
             margin-bottom: 0;
 
         }

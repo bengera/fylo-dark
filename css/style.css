@@ -366,6 +366,7 @@ small {
     @media only screen and (max-width: 50em) {
       .header__img {
         width: 100%;
+        margin: 0 auto;
         height: auto;
         padding: 1rem; } }
   .header__content {
@@ -377,7 +378,7 @@ small {
     @media only screen and (max-width: 50em) {
       .header__content {
         justify-content: flex-start;
-        width: 100%;
+        max-width: 650px;
         margin-bottom: 0; } }
   .header__info {
     color: #fff;
