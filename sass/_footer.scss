@@ -3,13 +3,13 @@
     height: auto;
     background-color: $color-blue-footer-background;
     color: $color-white;
-
+    
     
     
 
     &__outer-container {
         
-        width: 75%;
+        max-width: 1140px;
         display: flex;
         margin: 0 auto 0 auto;
         position: relative;

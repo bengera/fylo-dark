@@ -94,6 +94,15 @@ small {
     color: $color-light-red;
     margin-left: 1rem;
 }
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+    
+    
+}
+
 // CALL TO ACTION BUTTONS
 .cta {
     background: linear-gradient(90deg, rgba(37, 230, 211, 1) 0%, rgba(26, 134, 187, 1) 100%);
