@@ -445,12 +445,11 @@ small {
   grid-template-rows: repeat(2, 1fr); }
   @media only screen and (max-width: 62.5em) {
     .section-features {
-      height: 100vh;
       width: 100%;
       margin-top: 13rem;
       grid-template-columns: 1fr;
       padding: 0;
-      margin-bottom: 15rem; } }
+      margin-bottom: 30rem; } }
   @media only screen and (max-width: 37.5em) {
     .section-features {
       margin-top: 0;
