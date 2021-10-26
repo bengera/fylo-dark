@@ -329,6 +329,11 @@ small {
   color: #ff4242;
   margin-left: 1rem; }
 
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px; }
+
 .cta {
   background: linear-gradient(90deg, #25e6d3 0%, #1a86bb 100%);
   width: 25rem;
@@ -344,14 +349,12 @@ small {
 .header {
   color: #fff;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
   background-color: #1c2431;
   background-image: url("../images/bg-curvy-desktop.svg");
   background-repeat: no-repeat;
-  background-position: 50% 160%;
+  background-position: bottom;
   background-size: 100%;
   font-family: "Raleway", "sans-serif"; }
   @media only screen and (max-width: 50em) {
@@ -365,14 +368,11 @@ small {
         height: 35%;
         padding: 1rem; } }
   .header__content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    width: 50%;
+    max-width: 70rem;
     text-align: center;
-    margin-bottom: 1rem; }
+    margin-bottom: 1rem;
+    display: block;
+    text-align: center; }
     @media only screen and (max-width: 50em) {
       .header__content {
         justify-content: flex-start;
@@ -380,7 +380,7 @@ small {
         margin-bottom: 0; } }
   .header__info {
     color: #fff;
-    width: 60%;
+    width: 100%;
     text-align: center;
     font-size: 1.9rem;
     padding: 1rem;
@@ -391,14 +391,17 @@ small {
     @media only screen and (max-width: 37.5em) {
       .header__info {
         margin-bottom: 0.5rem;
-        width: 85%; } }
+        width: 85%;
+        text-align: center;
+        margin: 0 auto 0 auto; } }
 
 .header-top {
   display: flex;
   align-items: center;
   padding: 2rem;
   height: 10rem;
-  width: 95vw;
+  background-color: #1c2431;
+  width: 100%;
   margin: 2rem auto 0 auto; }
   @media only screen and (max-width: 62.5em) {
     .header-top {
@@ -435,8 +438,6 @@ small {
 
 .section-features {
   padding: 10rem;
-  width: 70vw;
-  height: 80vh;
   margin: 10rem auto 0 auto;
   display: grid;
   gap: 10%;
@@ -468,8 +469,6 @@ small {
     width: 70%; }
 
 .how-to {
-  width: 70vw;
-  height: 50vh;
   margin: 0 auto 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -523,7 +522,6 @@ small {
   display: grid;
   margin-top: 15rem;
   grid-template-columns: repeat(3, 1fr);
-  width: 75vw;
   margin: 15rem auto 0 auto;
   gap: 5rem;
   position: relative; }
@@ -542,7 +540,7 @@ small {
     background-color: #202a3c;
     display: flex;
     flex-direction: column;
-    padding: 5rem;
+    padding: 3rem;
     border-radius: 8px; }
   .testimonials__source {
     display: flex;
@@ -550,7 +548,7 @@ small {
   .testimonials__quote {
     color: white;
     margin-bottom: 2rem;
-    font-size: 1.6rem; }
+    font-size: 1.4rem; }
   .testimonials__name {
     font-weight: 700;
     margin-right: 1rem; }
@@ -564,7 +562,6 @@ small {
     margin-right: 1rem; }
 
 .registration {
-  width: 55vw;
   height: 30rem;
   margin: 10rem auto 0 auto;
   position: relative;
@@ -646,7 +643,7 @@ small {
   background-color: #0b1523;
   color: white; }
   .footer__outer-container {
-    width: 75%;
+    max-width: 1140px;
     display: flex;
     margin: 0 auto 0 auto;
     position: relative; }
