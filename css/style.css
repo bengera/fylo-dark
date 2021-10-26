@@ -402,10 +402,7 @@ small {
   height: 10rem;
   background-color: #1c2431;
   width: 100%;
-  margin: 2rem auto 0 auto; }
-  @media only screen and (max-width: 62.5em) {
-    .header-top {
-      margin: 10rem auto 0 auto; } }
+  margin: 0 auto 0 auto; }
 
 .logo {
   margin-right: auto;
