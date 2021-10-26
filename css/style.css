@@ -365,7 +365,7 @@ small {
     height: 45rem; }
     @media only screen and (max-width: 50em) {
       .header__img {
-        height: 35%;
+        height: 25%;
         padding: 1rem; } }
   .header__content {
     max-width: 70rem;
